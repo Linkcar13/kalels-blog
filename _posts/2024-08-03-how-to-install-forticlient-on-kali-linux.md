@@ -6,6 +6,8 @@ date: 2024-08-03 18:00:00 -0500
 math: false
 mermaid: true
 pin: true
+media_subpath: /assets/img/how-to-install-forticlient/
+image: logo-forti.png
 ---
 ---
 
