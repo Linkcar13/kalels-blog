@@ -5,7 +5,7 @@ tags: [Linux]
 date: 2024-08-03 18:00:00 -0500
 math: false
 mermaid: true
-pin: false
+pin: true
 ---
 ---
 
