@@ -7,7 +7,7 @@ math: false
 mermaid: true
 pin: true
 image:
-  path: assets/img/cmd-challenge.png
+  path: assets/img/cmd-challenge/cmd-challenge.png
 ---
 ---
 
