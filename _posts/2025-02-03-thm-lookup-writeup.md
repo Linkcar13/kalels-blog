@@ -11,6 +11,7 @@ image:
 ---
 ---
 
+On this article we'll explore the Lookup Challenge of Try Hack Me.
 
 ```bash
 searchsploit elfinder
