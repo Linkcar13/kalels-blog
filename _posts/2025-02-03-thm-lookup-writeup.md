@@ -17,30 +17,30 @@ Now, let's dive into the attack process! 🚀
 
 ## Step-by-Step Guide  
 
-### 1. Connect to the Lab
+### Connect to the Lab
 Connect to the lab using the **VPN** or **AttackBox**.  
 
-### 2. Reconnaissance
+### Reconnaissance
 Use the THM machine's IP address to perform reconnaissance with the following commands:  
 ```bash
 whatweb -a <IP-ADRESS-THM-VM>
 nmap -F <IP-ADRESS-THM-VM>
 ```
 
-### 3. Resolving Domain
+### Resolving Domain
 During the previous step, the `whatweb` command identified that the vulnerable IP resolves to the domain **"lookup.thm"**. It is necessary to associate this domain with the IP by adding it to the `/etc/hosts` file.  
 
-### 4. Access the Login Page
+### Access the Login Page
 Access the **lookup.thm** webpage, where a login panel is found.  
 
-### 5. Analyzing Login Requests
+### Analyzing Login Requests
 After analyzing and intercepting the login request, we identified different error messages when entering a valid username. As shown in the images below, we can bruteforce valid usernames.
 
 ![Wrong username](assets/img/THM/Lookup-Writeup/wrong-user-password.png)
 
 ![Wrong Password](assets/img/THM/Lookup-Writeup/wrong-password.png)
 
-### 6. Identifying Valid Usernames
+### Identifying Valid Usernames
 Using this information, we will identify valid usernames using the `curl` command and the following simple Bash script:  
 ```bash
 #!/bin/bash
