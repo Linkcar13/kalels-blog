@@ -2,7 +2,7 @@
 title: "Command Challenge: command Line Practice"
 categories: [Linux]
 tags: [Linux]
-date: 2025-02-04 12:00:00 -0500
+date: 2025-02-04 00:00:00 -0500
 math: false
 mermaid: true
 pin: true
